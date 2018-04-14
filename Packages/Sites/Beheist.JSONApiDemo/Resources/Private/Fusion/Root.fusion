@@ -1,8 +1,16 @@
 
 include: Documents/*
+include: JSON/*
 
-// Hook into the root matcher to change rendering for JSON requests
 root {
+
+    // Hook into the root matcher to change rendering for JSON requests
+    jsonApi {
+        condition = ${request.format == 'json'}
+        type = ${q(node).property('_nodeType') + '.JSON'}
+    }
+
+
     default {
         renderPath >
         type = ${q(node).property('_nodeType') + '.Document'}

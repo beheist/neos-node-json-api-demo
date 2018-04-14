@@ -1,0 +1,3 @@
+prototype(Neos.NodeTypes:Page.JSON) < prototype(Neos.Fusion:Value) {
+    value = '{test: "test"}'
+}
