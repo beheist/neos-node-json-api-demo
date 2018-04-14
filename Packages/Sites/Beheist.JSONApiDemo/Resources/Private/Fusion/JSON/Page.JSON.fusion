@@ -1,5 +1,12 @@
 prototype(Neos.NodeTypes:Page.JSON) < prototype(Beheist.JSONApiDemo:AbstractPage.JSON) {
-    output = Beheist.JSONApiDemo:AbstractNodeExtractor
+    output = Beheist.JSONApiDemo:PageExtractor
     output.@process.renderAsJSON = ${Json.stringify(value)}
 }
 
+prototype(Beheist.JSONApiDemo:PageExtractor) < prototype(Beheist.JSONApiDemo:AbstractNodeExtractor) {
+    children = Neos.Fusion:RawCollection {
+        collection = ${q(node).children('[instanceof Neos.NodeTypes:Page]')}
+        itemName = 'node'
+        itemRenderer = Beheist.JSONApiDemo:PageExtractor
+    }
+}
