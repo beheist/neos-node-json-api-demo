@@ -49,25 +49,25 @@
      </node>
     </node>
     <node identifier="8405deab-a5db-4dd3-96ed-6a765b9aec46" nodeName="node-dd3a496uqjn1r">
-     <variant sortingIndex="200" workspace="live" nodeType="Neos.NodeTypes:Page" version="2" removed="" hidden="" hiddenInIndex="">
+     <variant sortingIndex="200" workspace="live" nodeType="Neos.NodeTypes:Page" version="3" removed="" hidden="" hiddenInIndex="">
       <dimensions/>
       <accessRoles __type="array"/>
       <creationDateTime __type="object" __classname="DateTime">2018-04-14T07:23:10+00:00</creationDateTime>
-      <lastModificationDateTime __type="object" __classname="DateTime">2018-04-14T07:31:26+00:00</lastModificationDateTime>
-      <lastPublicationDateTime __type="object" __classname="DateTime">2018-04-14T07:31:25+00:00</lastPublicationDateTime>
+      <lastModificationDateTime __type="object" __classname="DateTime">2018-04-14T08:25:24+00:00</lastModificationDateTime>
+      <lastPublicationDateTime __type="object" __classname="DateTime">2018-04-14T08:25:24+00:00</lastPublicationDateTime>
       <properties>
-       <uriPathSegment __type="string">subpage-1</uriPathSegment>
+       <uriPathSegment __type="string">page1</uriPathSegment>
        <canonicalLink __type="string"></canonicalLink>
-       <title __type="string">Subpage 1</title>
+       <title __type="string">Page1</title>
       </properties>
      </variant>
      <node identifier="c7e615d9-fd6c-e84d-8a3d-0f9c726b606d" nodeName="main">
-      <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+      <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="3" removed="" hidden="" hiddenInIndex="">
        <dimensions/>
        <accessRoles __type="array"/>
        <creationDateTime __type="object" __classname="DateTime">2018-04-14T07:23:10+00:00</creationDateTime>
-       <lastModificationDateTime __type="object" __classname="DateTime">2018-04-14T07:31:26+00:00</lastModificationDateTime>
-       <lastPublicationDateTime __type="object" __classname="DateTime">2018-04-14T07:31:25+00:00</lastPublicationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2018-04-14T08:25:24+00:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2018-04-14T08:25:24+00:00</lastPublicationDateTime>
        <properties/>
       </variant>
       <node identifier="6c687a00-e40a-48c9-bcb1-b14efb660881" nodeName="node-tiqdeuokeajej">
@@ -97,53 +97,101 @@
        </variant>
       </node>
      </node>
-    </node>
-    <node identifier="56e1b2cd-e251-4f8b-8e30-447f895b9248" nodeName="node-k9e42sfgvsh0r">
-     <variant sortingIndex="250" workspace="live" nodeType="Neos.NodeTypes:Page" version="3" removed="" hidden="" hiddenInIndex="">
-      <dimensions/>
-      <accessRoles __type="array"/>
-      <creationDateTime __type="object" __classname="DateTime">2018-04-14T07:23:15+00:00</creationDateTime>
-      <lastModificationDateTime __type="object" __classname="DateTime">2018-04-14T07:31:23+00:00</lastModificationDateTime>
-      <lastPublicationDateTime __type="object" __classname="DateTime">2018-04-14T07:31:23+00:00</lastPublicationDateTime>
-      <properties>
-       <uriPathSegment __type="string">subpage-2</uriPathSegment>
-       <canonicalLink __type="string"></canonicalLink>
-       <title __type="string">Subpage 2</title>
-      </properties>
-     </variant>
-     <node identifier="6652b3ab-948e-d8bb-5c62-2e12e95dfd37" nodeName="main">
-      <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+     <node identifier="56e1b2cd-e251-4f8b-8e30-447f895b9248" nodeName="node-k9e42sfgvsh0r">
+      <variant sortingIndex="350" workspace="live" nodeType="Neos.NodeTypes:Page" version="4" removed="" hidden="" hiddenInIndex="">
        <dimensions/>
        <accessRoles __type="array"/>
        <creationDateTime __type="object" __classname="DateTime">2018-04-14T07:23:15+00:00</creationDateTime>
-       <lastModificationDateTime __type="object" __classname="DateTime">2018-04-14T07:31:23+00:00</lastModificationDateTime>
-       <lastPublicationDateTime __type="object" __classname="DateTime">2018-04-14T07:31:23+00:00</lastPublicationDateTime>
-       <properties/>
+       <lastModificationDateTime __type="object" __classname="DateTime">2018-04-14T07:41:57+00:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2018-04-14T07:41:56+00:00</lastPublicationDateTime>
+       <properties>
+        <uriPathSegment __type="string">subpage-2</uriPathSegment>
+        <canonicalLink __type="string"></canonicalLink>
+        <title __type="string">Subpage 2</title>
+       </properties>
       </variant>
-      <node identifier="1c64cab4-ab81-45b2-b469-1643d0db26a5" nodeName="node-4t2g1mp5sa742">
-       <variant sortingIndex="150" workspace="live" nodeType="Neos.NodeTypes:Text" version="5" removed="" hidden="" hiddenInIndex="">
+      <node identifier="6652b3ab-948e-d8bb-5c62-2e12e95dfd37" nodeName="main">
+       <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="3" removed="" hidden="" hiddenInIndex="">
         <dimensions/>
         <accessRoles __type="array"/>
-        <creationDateTime __type="object" __classname="DateTime">2018-04-14T07:31:18+00:00</creationDateTime>
-        <lastModificationDateTime __type="object" __classname="DateTime">2018-04-14T07:31:23+00:00</lastModificationDateTime>
-        <lastPublicationDateTime __type="object" __classname="DateTime">2018-04-14T07:31:23+00:00</lastPublicationDateTime>
-        <properties>
-         <text __type="string">&lt;p&gt;Text on sp2&lt;/p&gt;
+        <creationDateTime __type="object" __classname="DateTime">2018-04-14T07:23:15+00:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2018-04-14T07:41:57+00:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2018-04-14T07:41:56+00:00</lastPublicationDateTime>
+        <properties/>
+       </variant>
+       <node identifier="1c64cab4-ab81-45b2-b469-1643d0db26a5" nodeName="node-4t2g1mp5sa742">
+        <variant sortingIndex="150" workspace="live" nodeType="Neos.NodeTypes:Text" version="6" removed="" hidden="" hiddenInIndex="">
+         <dimensions/>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2018-04-14T07:31:18+00:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2018-04-14T07:41:57+00:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2018-04-14T07:41:56+00:00</lastPublicationDateTime>
+         <properties>
+          <text __type="string">&lt;p&gt;Text on sp2&lt;/p&gt;
 </text>
+         </properties>
+        </variant>
+       </node>
+       <node identifier="ac4345bd-7328-401b-b16a-554c4203cae9" nodeName="node-69k4xqdouuki6">
+        <variant sortingIndex="100" workspace="live" nodeType="Neos.NodeTypes:Headline" version="5" removed="" hidden="" hiddenInIndex="">
+         <dimensions/>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2018-04-14T07:31:14+00:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2018-04-14T07:41:57+00:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2018-04-14T07:41:56+00:00</lastPublicationDateTime>
+         <properties>
+          <title __type="string">&lt;h1&gt;SP2&lt;/h1&gt;
+</title>
+         </properties>
+        </variant>
+       </node>
+      </node>
+      <node identifier="1668a7b5-e807-48b5-bbba-710deb71d9e2" nodeName="node-296wzfvpz7elk">
+       <variant sortingIndex="200" workspace="live" nodeType="Neos.NodeTypes:Page" version="2" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2018-04-14T08:25:19+00:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2018-04-14T08:25:51+00:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2018-04-14T08:25:51+00:00</lastPublicationDateTime>
+        <properties>
+         <uriPathSegment __type="string">sub-subpage-1</uriPathSegment>
+         <canonicalLink __type="string"></canonicalLink>
+         <title __type="string">Sub-Subpage 1</title>
         </properties>
        </variant>
+       <node identifier="1b505c91-680c-2186-9bc1-49dc1a3568f6" nodeName="main">
+        <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+         <dimensions/>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2018-04-14T08:25:19+00:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2018-04-14T08:25:51+00:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2018-04-14T08:25:51+00:00</lastPublicationDateTime>
+         <properties/>
+        </variant>
+       </node>
       </node>
-      <node identifier="ac4345bd-7328-401b-b16a-554c4203cae9" nodeName="node-69k4xqdouuki6">
-       <variant sortingIndex="100" workspace="live" nodeType="Neos.NodeTypes:Headline" version="4" removed="" hidden="" hiddenInIndex="">
+     </node>
+     <node identifier="df54fe95-854f-4225-b2ea-105fe7d2d271" nodeName="node-zogv8yoslm3fy">
+      <variant sortingIndex="225" workspace="live" nodeType="Neos.NodeTypes:Page" version="5" removed="" hidden="" hiddenInIndex="">
+       <dimensions/>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2018-04-14T08:24:59+00:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2018-04-14T08:25:51+00:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2018-04-14T08:25:51+00:00</lastPublicationDateTime>
+       <properties>
+        <uriPathSegment __type="string">subpage-1</uriPathSegment>
+        <canonicalLink __type="string"></canonicalLink>
+        <title __type="string">Subpage 1</title>
+       </properties>
+      </variant>
+      <node identifier="29e35d3b-2dd5-ecc9-d50c-4f7ab8b79620" nodeName="main">
+       <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="4" removed="" hidden="" hiddenInIndex="">
         <dimensions/>
         <accessRoles __type="array"/>
-        <creationDateTime __type="object" __classname="DateTime">2018-04-14T07:31:14+00:00</creationDateTime>
-        <lastModificationDateTime __type="object" __classname="DateTime">2018-04-14T07:31:23+00:00</lastModificationDateTime>
-        <lastPublicationDateTime __type="object" __classname="DateTime">2018-04-14T07:31:23+00:00</lastPublicationDateTime>
-        <properties>
-         <title __type="string">&lt;h1&gt;SP2&lt;/h1&gt;
-</title>
-        </properties>
+        <creationDateTime __type="object" __classname="DateTime">2018-04-14T08:24:59+00:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2018-04-14T08:25:51+00:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2018-04-14T08:25:51+00:00</lastPublicationDateTime>
+        <properties/>
        </variant>
       </node>
      </node>
