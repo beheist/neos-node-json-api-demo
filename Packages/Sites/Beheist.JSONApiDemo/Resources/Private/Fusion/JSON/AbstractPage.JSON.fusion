@@ -1,0 +1,17 @@
+prototype(Beheist.JSONApiDemo:AbstractPage.JSON) < prototype(Neos.Fusion:Http.Message) {
+    httpResponseHead {
+        headers = Neos.Fusion:RawArray {
+            Content-Type = 'application/json'
+        }
+    }
+    @cache {
+        mode = "cached"
+        entryIdentifier {
+            1 = ${node.identifier + '_API'}
+        }
+        entryTags {
+            1 = ${'Node_' + node.identifier}
+            2 = ${'DescendantOf_' + node.identifier}
+        }
+    }
+}

@@ -1,3 +1,5 @@
-prototype(Neos.NodeTypes:Page.JSON) < prototype(Neos.Fusion:Value) {
-    value = '{test: "test"}'
+
+
+prototype(Neos.NodeTypes:Page.JSON) < prototype(Beheist.JSONApiDemo:AbstractPage.JSON) {
+    output = '{"test": "test"}'
 }
