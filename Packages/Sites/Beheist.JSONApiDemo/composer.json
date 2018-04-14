@@ -1,0 +1,22 @@
+{
+    "description": "",
+    "type": "neos-site",
+    "require": {
+        "neos/neos": "*",
+        "neos/nodetypes": "*"
+    },
+    "suggest": {
+        "neos/seo": "*"
+    },
+    "name": "beheist/jsonapidemo",
+    "autoload": {
+        "psr-4": {
+            "Beheist\\JSONApiDemo\\": "Classes/"
+        }
+    },
+    "extra": {
+        "neos": {
+            "package-key": "Beheist.JSONApiDemo"
+        }
+    }
+}
