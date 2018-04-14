@@ -1,0 +1,13 @@
+prototype(Beheist.JSONApiDemo:AbstractNodeExtractor) < prototype(Neos.Fusion:RawArray) {
+    id = ${q(node).property('_identifier')}
+    title = ${q(node).property('title')}
+    uriJSON = Neos.Neos:NodeUri {
+        node = ${node}
+        absolute = true
+    }
+    uriHTML = Neos.Neos:NodeUri {
+        node = ${node}
+        absolute = true
+        format = 'html'
+    }
+}

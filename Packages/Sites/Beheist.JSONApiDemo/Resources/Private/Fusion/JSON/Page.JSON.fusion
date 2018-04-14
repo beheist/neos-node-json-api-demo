@@ -1,5 +1,5 @@
-
-
 prototype(Neos.NodeTypes:Page.JSON) < prototype(Beheist.JSONApiDemo:AbstractPage.JSON) {
-    output = '{"test": "test"}'
+    output = Beheist.JSONApiDemo:AbstractNodeExtractor
+    output.@process.renderAsJSON = ${Json.stringify(value)}
 }
+
